@@ -26,7 +26,7 @@ class CSVLogger(FlaggingCallback):
     def setup(
         self,
         components: List[Any],
-        flagging_dir: str | Path,
+        flagging_dir: str | Path
     ):
         self.components = components
         self.flagging_dir = flagging_dir
